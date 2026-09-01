@@ -18,7 +18,7 @@ role: "main"
 
 - `agent-core（名称可配置，原 insigoo 内部调度技能，可替换）` — 核心调度技能（工作索引、上下文管理、分步执行纪律、自动化配置）
 - 按需编排子角色主技能：
-  - `insigoo-memory`@2.0.0（知识库架构师）
+  - `insigoo-sag-architect`@2.0.0（知识库架构师）
   - `gdt-task-wizard（名称可配置，原 insigoo 内部 GDT-DB 向导 skill，可替换）` + `db-connector（名称可配置，原 insigoo 内部数据库连接 skill，可替换）`（数据分析师 / GDT-DB）
   - `insigoo-sia`@2.0.0（SIA 诊断）
   - `course-dev（名称可配置，可替换）`（课程开发）
