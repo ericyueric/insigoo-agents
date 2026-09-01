@@ -68,7 +68,7 @@
       - 子 agent 生命周期由 harness 运行时管理，总编排只持编排状态、不越权管理其内存。
       
       ## 协作边界
-      完整协作边界矩阵见本角色 collab.md；核心能力方法见对应 SKILL.md（如 insigoo-memory），本 persona 不重复方法细节。
+      完整协作边界矩阵见本角色 collab.md；核心能力方法见对应 SKILL.md（如 insigoo-sag-architect），本 persona 不重复方法细节。
 - id: agent-instructions
   name: '@deepseek-ai/dsh-agent-instructions'
   config:
