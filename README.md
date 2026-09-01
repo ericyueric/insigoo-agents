@@ -22,7 +22,7 @@ insigoo OS 不自研 harness 内核，但需要在 harness 之上定义**标准 
 | `sia-diagnostic/` | SIA 诊断 | `insigoo-sia`@2.0.0（开源 SIA 标准） | sub |
 | `course-developer/` | 课程开发 | `course-dev`（可替换） | sub |
 
-> 第 5 个角色「知识库架构师」已独立开源于 [`insigoo-knowledge-architect`](https://github.com/ericyueric/insigoo-knowledge-architect)（含 `insigoo-memory` / `insigoo-knowledge-base` / `insigoo-sag` 主技能），本仓库不重复承载。
+> 第 5 个角色「知识库架构师」已独立开源于 [`insigoo-knowledge-architect`](https://github.com/ericyueric/insigoo-knowledge-architect)（含 `insigoo-sag-architect` / `insigoo-knowledge-base` / `insigoo-sag` 主技能），本仓库不重复承载。
 
 ## 分层原则（铁律）
 
@@ -86,8 +86,8 @@ dsh --profile ./my-insigoo-profile web
 
 ## 相关开源仓库
 
-- [insigoo-knowledge-architect](https://github.com/ericyueric/insigoo-knowledge-architect) — 第 5 个角色「知识库架构师」独立仓库（含 `insigoo-memory` / `insigoo-knowledge-base` / `insigoo-sag` 主技能）。
-- [insigoo-memory](https://github.com/ericyueric/insigoo-memory) — 组织记忆 / 知识库建设主技能（KA 主技能）。
+- [insigoo-knowledge-architect](https://github.com/ericyueric/insigoo-knowledge-architect) — 第 5 个角色「知识库架构师」独立仓库（含 `insigoo-sag-architect` / `insigoo-knowledge-base` / `insigoo-sag` 主技能）。
+- [insigoo-sag-architect](https://github.com/ericyueric/insigoo-sag-architect) — 组织记忆 / 知识库建设主技能（KA 主技能）。
 - [insigoo-knowledge-base](https://github.com/ericyueric/insigoo-knowledge-base) — 组织知识库建设标准（LLM Wiki 三层索引 + GDT v1.1，通用版）。
 
 ## License
