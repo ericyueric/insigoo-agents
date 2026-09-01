@@ -102,7 +102,7 @@ function assemblePersona(display, name, files) {
     memory,
     '',
     '## 协作边界',
-    '完整协作边界矩阵见本角色 collab.md；核心能力方法见对应 SKILL.md（如 insigoo-memory），本 persona 不重复方法细节。',
+    '完整协作边界矩阵见本角色 collab.md；核心能力方法见对应 SKILL.md（如 insigoo-sag-architect），本 persona 不重复方法细节。',
   ].join('\n');
 }
 
