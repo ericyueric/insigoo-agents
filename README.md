@@ -19,7 +19,7 @@ insigoo OS 不自研 harness 内核，但需要在 harness 之上定义**标准 
 |----------|------|------------------|------|
 | `orchestrator/` | 总编排（名称可配置） | `agent-core`（原 insigoo 内部调度技能，可替换） | **main**（入口，调度其余角色） |
 | `data-analyst/` | 数据分析师 | `gdt-task-wizard`（原 insigoo 内部 GDT-DB 向导）+ `db-connector`（原内部数据库连接，可替换） | sub |
-| `sia-diagnostic/` | SIA 诊断 | `insigoo-sia`@2.0.0（开源 SIA 标准） | sub |
+| `sia-diagnostic/` | SIA 诊断 | `insigoo-sia`@3.0.0（开源 SIA 标准，github.com/ericyueric/insigoo-sia-open） | sub |
 | `course-developer/` | 课程开发 | `course-dev`（可替换） | sub |
 
 > 第 5 个角色「知识库架构师」已独立开源于 [`insigoo-knowledge-architect`](https://github.com/ericyueric/insigoo-knowledge-architect)（含 `insigoo-sag-architect` / `insigoo-knowledge-base` / `insigoo-sag` 主技能），本仓库不重复承载。
